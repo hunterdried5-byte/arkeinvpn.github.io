@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="pacificrim"
+version="1.0.0-1.21"
+displayName="Pacific Rim Mod"
+authors="PacificRimTeam"
+description='''
+Полноценный мод по фильму "Тихоокеанский рубеж" для Minecraft 1.21.x
+
+Функционал:
+- Егери: Gipsy Danger, Cherno Alpha с уникальными способностями
+- Кайдзю: Leatherback, Otachi, Slattern разных категорий
+- Оружие: Chain Sword, Plasma Caster
+- Система Дрейфа: нейронная синхронизация пилотов
+- 8 типов микрочастиц: выхлоп Егерей, плазменный след, связь дрейфа, слизь Кайдзю, синяя кровь, ЭМИ волны, искры меча, плазменные взрывы
+- Блоки и предметы: сплав Кайдзю, реактор, органы Кайдзю, синяя кровь, ядро Егеря
+'''
+logoFile="logo.png"
+
+[[dependencies.pacificrim]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.pacificrim]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21,1.22)"
+    ordering="NONE"
+    side="BOTH"

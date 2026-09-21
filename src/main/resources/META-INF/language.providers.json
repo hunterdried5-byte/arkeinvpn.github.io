@@ -1,0 +1,12 @@
+{
+  "pacificrim": {
+    "languages": {
+      "minecraft:ru_ru": {
+        "priority": 1
+      },
+      "minecraft:en_us": {
+        "priority": 2
+      }
+    }
+  }
+}
